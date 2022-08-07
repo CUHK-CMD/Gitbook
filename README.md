@@ -4,6 +4,11 @@ description: 這個項目是 Dr.Chau 帶領的小組，是由一群熱愛音樂�
 
 # 歡迎蒞臨 香港中文大學 Computer Music Dev
 
+Gitbook Link:
+
+暫時:\
+[https://steven-lam.gitbook.io/computer-music-dev-at-cuhk-1/](https://steven-lam.gitbook.io/computer-music-dev-at-cuhk-1/)
+
 Dr.Chau **個人網頁**
 
 {% embed url="https://www.cse.cuhk.edu.hk/~chuckjee/#projects" %}
