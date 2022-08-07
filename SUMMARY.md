@@ -10,3 +10,7 @@
 
 * [MIDI-BERT-2](midi-bert-2/midi-bert-2.md)
 * [運作原理](midi-bert-2/yun-zuo-yuan-li.md)
+
+## 成員 <a href="#credit" id="credit"></a>
+
+* [2022 成員](credit/2022-cheng-yuan.md)
