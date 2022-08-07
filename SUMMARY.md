@@ -15,3 +15,4 @@
 
 * [2022 成員](credit/2022-cheng-yuan.md)
 * [2021 成員](credit/2021-cheng-yuan.md)
+* [2020 成員](credit/2020-cheng-yuan.md)
