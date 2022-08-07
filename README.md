@@ -4,6 +4,8 @@ description: 這個項目是 Dr.Chau 帶領的小組，是由一群熱愛音樂�
 
 # 歡迎蒞臨 香港中文大學 Computer Music Dev
 
+## Construction now
+
 Gitbook Link:
 
 暫時:\
