@@ -12,6 +12,7 @@
 * [介紹](midi-bert-2/introduction.md)
 * [安裝](midi-bert-2/installation.md)
 * [A. 預備 Data](/midi-bert-2/prepareData.md)
+* [B. Pre-train a MidiBERT-Piano](/midi-bert-2/Pre-trainMidiBERT-Piano.md)
 * [運作原理](midi-bert-2/operation.md)
 
 ## 成員 <a href="#credit" id="credit"></a>
