@@ -14,6 +14,7 @@
 * [A. 預備 Data](/midi-bert-2/prepareData.md)
 * [B. Pre-train a MidiBERT-Piano](/midi-bert-2/Pre-trainMidiBERT-Piano.md)
 * [C. Fine-tune & Evaluate on Downstream Tasks](/midi-bert-2/finetuneNEvaluate.md)
+* [E. Skyline](midi-bert-2/skyline.md)
 * [運作原理](midi-bert-2/operation.md)
 * [Citation](midi-bert-2/citation.md)
 
