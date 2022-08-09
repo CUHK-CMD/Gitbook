@@ -4,7 +4,7 @@ description: >-
   https://github.com/CUHK-CMD/MIDI-BERT-2/tree/feature/performance-tuning#a-prepare-data
 ---
 
-# 預備 Data
+# A. 預備 Data
 
 全部CP/REMI token DATA 都是儲存在 `data/CP` 和 `data/remi`，其中包括 train, valid, test split。
 
@@ -32,13 +32,33 @@ description: >-
     * Step 1: 點擊連結下載 Emopia dataset 
     * Step 2: Run `python3 emopia.py` 分 data 到 `Dataset/emopia_(mode).pkl`
 
-## 2.  Prepare Dictionary
+## 2.  預備 Dictionary
 
-- `dict/make_dict.py` customize the events & words you'd like to add.
+- `dict/make_dict.py` 自由添加events和words。
 
-In this paper, we only use Bar, Position, Pitch, Duration. And we provide our dictionaries in CP & REMI representation.
+在這份[paper](https://drive.google.com/drive/folders/1ceIfC1UugZQHPgpEEMkdAF0VhZ1EeLl3?usp=sharing)，在 `CP` 和`REMI` 中用了 ` <Bar>, <Position>, <Pitch>, <Duration>`。
 
 `dict/CP.pkl`
-
 `dict/remi.pkl`
 
+## 3. 預備 CP 和 REMI
+- 請注意 `CP` 和`REMI` 中用只了 ` <Bar>, <Position>, <Pitch>, <Duration>`。
+- 如果你喜歡原來的TOKEN，請到參考[CP repo](https://github.com/YatingMusic/compound-word-transformer)
+
+
+### ```./prepare_data/CP```
+
+* Run ```python3 main.py ```
+  * 如果你 prepare dataset 想用 answer array，請指明你的dataset。譬如 ```melody extraction, velocity prediction, composer classification and emotion classification```
+  
+  * 例如：```python3 main.py --dataset=pop909 --task=melody --dir=[DIR_TO_STORE_DATA]```
+  
+* 自定的 dataset, run `python3 main.py --input_dir={your_input_directory}`
+  *  CP tokens Data會儲存到 `../../data/CP/{your input directory name}.npy`。
+  *  輸入 `--name={filename}` 以指定的FILE .
+
+### ```./prepare_data/remi/```
+
+* 請參考 CP data。
+
+Acknowledgement: [CP repo](https://github.com/YatingMusic/compound-word-transformer), [remi repo](https://github.com/YatingMusic/remi/tree/6d407258fa5828600a5474354862353ef4e4e8ae)

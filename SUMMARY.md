@@ -11,7 +11,7 @@
 * [MIDI-BERT-2](midi-bert-2/midi-bert-2.md)
 * [介紹](midi-bert-2/introduction.md)
 * [安裝](midi-bert-2/installation.md)
-* [預備 Data](/midi-bert-2/prepareData.md)
+* [A. 預備 Data](/midi-bert-2/prepareData.md)
 * [運作原理](midi-bert-2/operation.md)
 
 ## 成員 <a href="#credit" id="credit"></a>
