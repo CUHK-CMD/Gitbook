@@ -9,7 +9,8 @@
 ## MIDI-BERT-2
 
 * [MIDI-BERT-2](midi-bert-2/midi-bert-2.md)
-* [運作原理](midi-bert-2/yun-zuo-yuan-li.md)
+* [介紹](midi-bert-2/introduction.md)
+* [運作原理](midi-bert-2/operation.md)
 
 ## 成員 <a href="#credit" id="credit"></a>
 
